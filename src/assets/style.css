@@ -64,3 +64,28 @@ header {
 	position: absolute;
 	bottom: 160px;
 }
+
+/* Section Service */
+
+.services {
+	margin: 4em;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.services-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.services-items p {
+	padding-top: 15px;
+	font-weight: 600;
+	width: 10em;
+	text-align: center;
+}
+
+.icon {
+	font-size: 3em;
+	color: var(--lightGreen);
+}
