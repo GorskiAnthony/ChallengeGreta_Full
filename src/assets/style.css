@@ -89,3 +89,82 @@ header {
 	font-size: 3em;
 	color: var(--lightGreen);
 }
+
+/* Section Best Seller */
+
+.section-title {
+	font-size: 50px;
+	font-family: "Abril Fatface", cursive, sans-serif;
+	font-weight: 100;
+	padding: 0 0 7px 0;
+	position: relative;
+}
+
+.section-title::before {
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 5px;
+	background-color: var(--lightGreen);
+	padding-bottom: 1px;
+	bottom: 0;
+}
+
+.best-plants {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.plant-box {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.flexUnique {
+	min-width: 350px;
+	height: 500px;
+	flex: 1;
+}
+
+.plant1 {
+	background-image: url("../images/nos_meilleures_ventes/1.jpg");
+}
+.plant2 {
+	background-image: url("../images/nos_meilleures_ventes/2.jpg");
+}
+.plant3 {
+	background-image: url("../images/nos_meilleures_ventes/3.jpg");
+}
+.plant4 {
+	background-image: url("../images/nos_meilleures_ventes/4.jpg");
+}
+
+/* Plant details */
+
+.plant-details {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--whiteTransparent);
+	padding: 20px;
+}
+
+.plant-name {
+	font-size: 22px;
+	font-weight: 600;
+	padding-bottom: 2px;
+}
+
+.plant-price {
+	color: var(--lightGreen);
+	font-weight: 600;
+	font-size: 14px;
+}
+
+/* wrapper */
+
+.wrapper {
+	margin: 8em;
+}
